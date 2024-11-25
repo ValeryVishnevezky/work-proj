@@ -1,0 +1,52 @@
+.app-header {
+  margin: 73px 165px;
+  font-family: Livvic-Medium, sans-serif;
+  color: $clr7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .links-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 385px;
+
+    img {
+      width: 161px;
+    }
+    .navlinks-box {
+      display: flex;
+
+      .home-link,
+      .about-link {
+        text-decoration: none;
+        color: inherit;
+        margin-left: 41px;
+        color: $clr7;
+      }
+
+      .home-link {
+        margin-left: 81px;
+      }
+
+      .active {
+        color: $clr2;
+      }
+    }
+  }
+
+  button {
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    font-family: Livvic-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #002529;
+    cursor: pointer;
+  }
+}

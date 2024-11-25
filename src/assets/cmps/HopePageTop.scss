@@ -1,0 +1,59 @@
+.home-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 55px;
+
+  .txt-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 137px;
+
+    .left-img {
+      position: absolute;
+      left: -110px;
+    }
+
+    h1 {
+      font-family: Livvic-Bold, sans-serif;
+      font-size: 100px;
+      line-height: 100px;
+      font-weight: normal;
+      white-space: nowrap;
+      color: $clr7;
+      margin: 0;
+
+      span {
+        color: $clr2;
+      }
+    }
+
+    .txt-right {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 82px;
+
+      .line {
+      }
+
+      p {
+        font-family: Livvic-Medium, sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        color: $clr7;
+        width: 445px;
+        height: 112px;
+        margin: 0;
+      }
+    }
+  }
+
+  .bottom-img {
+    margin-top: 150px;
+    margin-right: 164px;
+    align-self: end;
+  }
+}
