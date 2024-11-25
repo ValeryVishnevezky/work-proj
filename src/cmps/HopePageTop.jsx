@@ -7,7 +7,7 @@ export function HopePageTop() {
           Find the <br /> best <span>talent</span>
         </h1>
         <div className="txt-right">
-          <img className="line" src="../../public/line-blue.png" alt="" />
+          <img className="line" src="../../public/images/line-blue.png" alt="" />
           <p>
             Finding the right people and building high <br /> performing teams can be
             hard. Most companies aren’t tapping into the abundance of global

@@ -3,7 +3,7 @@ export function HopePageCenter() {
     <div className="home-center">
 
       <div className="left-box">
-        <img className="line" src="../../public/line-pink.png" alt="" />
+        <img className="line" src="../../public/images/line-pink.png" alt="" />
         <h1>Build & manage <br />distributed teams <br />like no one else.</h1>
       </div>
       

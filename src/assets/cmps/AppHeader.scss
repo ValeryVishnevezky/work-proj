@@ -1,10 +1,12 @@
 .app-header {
-  margin: 73px 165px;
   font-family: Livvic-Medium, sans-serif;
   color: $clr7;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+  margin: 73px 165px;
 
   .links-box {
     display: flex;
@@ -38,15 +40,6 @@
   }
 
   button {
-    width: 153px;
-    height: 48px;
-    border-radius: 24px;
-    background-color: #ffffff;
-    border: 2px solid #ffffff;
-    font-family: Livvic-Medium, sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    color: #002529;
-    cursor: pointer;
+    @include contact-btn
   }
 }

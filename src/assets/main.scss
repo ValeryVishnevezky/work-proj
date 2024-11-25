@@ -1,9 +1,11 @@
 // Setup
 @import "./setup/typography.scss";
 @import "./setup/variables.scss";
+@import "./setup/mixins.scss";
 
 // Base
 @import "./basics/base.scss";
+@import "./basics/layout";
 
 // pages
 @import "./pages/App.scss";

@@ -5,8 +5,10 @@ export function Home() {
   return (
     <div className="home">
       <HopePageTop/>
+      <div className="full">
       <HopePageCenter/>
       <HopePageBottom/>
+      </div>
     </div>
   );
 }
